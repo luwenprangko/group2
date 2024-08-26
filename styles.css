@@ -20,7 +20,7 @@ h1 {
     height: 100%;
 }
 
-#home, .contact {
+#home {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -45,4 +45,8 @@ h1 {
 
 p.blog {
     font-size: 1.5rem;
+}
+
+.contact {
+    margin-top: 190px;
 }
