@@ -1,0 +1,48 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+h1.big {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 5rem !important;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.title-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#home, .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.max-w {
+    width: 100% !important;
+    max-width: 600px !important; /* Set the maximum width */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add some padding for better readability */
+}
+
+@media (max-width: 600px) {
+    .max-w {
+        width: 100%; /* Full width on smaller screens */
+        max-width: 100%;
+        padding: 10px; /* Adjust padding for smaller screens if needed */
+    }
+}
+
+p.blog {
+    font-size: 1.5rem;
+}
